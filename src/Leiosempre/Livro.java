@@ -31,7 +31,7 @@ public class Livro {
 	}
 	
 	public String toString(){
-		return getTitulo() + " " + getAutor() + " " + Boolean.toString(isFisico());
+		return getTitulo() + ";" + getAutor() + ";" + Boolean.toString(isFisico());
 	}
 	
 
